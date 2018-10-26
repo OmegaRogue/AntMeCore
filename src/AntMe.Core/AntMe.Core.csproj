@@ -60,6 +60,7 @@
     <Compile Include="FactionUnit.cs" />
     <Compile Include="FactoryInterop.cs" />
     <Compile Include="FactoryInteropProperty.cs" />
+    <Compile Include="GeneratorHint.cs" />
     <Compile Include="IExtensionPack.cs" />
     <Compile Include="Serialization\ILevelStateDeserializer.cs" />
     <Compile Include="Serialization\ILevelStateSerializer.cs" />

@@ -1,4 +1,5 @@
-﻿using AntMe.Generator;
+﻿using AntMe;
+using AntMe.Generator;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -13,13 +14,14 @@ namespace CoreTestClient
         {
             InitializeComponent();
 
-            dictionary = ModpackGenerator.GetLocaKeys();
+            //dictionary = ModpackGenerator.GetLocaKeys();
 
-            foreach (var type in dictionary.Keys)
-            {
-                var node = typeList.Items.Add(type.FullName);
-                node.Tag = type;
-            }
+            //foreach (var type in dictionary.Keys)
+            //{
+            //    var node = typeList.Items.Add(type.FullName);
+            //    node.Tag = type;
+            //}
+
         }
 
         private void typeList_SelectedIndexChanged(object sender, EventArgs e)
